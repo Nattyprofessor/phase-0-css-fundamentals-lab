@@ -3,3 +3,57 @@ body {
   height: 100%;
   margin: 0;
 }
+header{
+  text-align: center;
+}
+figure {
+  text-align: center;
+}
+
+figure img {
+  display: block;
+  margin: 0 auto;
+}
+nav {
+    text-align: center;
+  }
+
+  nav a {
+    display: inline-block;
+    padding: 10px;
+    background-color: grey;
+    color: white; /* Optional: change text color */
+    text-decoration: none; /* Optional: remove underline */
+    margin: 0 5px; /* Optional: add some space between links */
+  }
+  #featured-property {
+    text-align: center;
+  }
+
+  #featured-property p {
+    width: 800px;
+    margin: 20px auto; /* Adds vertical spacing and centers the paragraphs horizontally */
+  }
+  figcaption {
+    font-size: 14px; /* Adjust font size as needed */
+    text-align: center;
+  }
+  #details {
+    overflow: hidden; /* Clear the float */
+  }
+
+  #details div {
+    float: left; /* Float each div to the left */
+    width: 25%; /* Occupy 25% of the width */
+    text-align: center; /* Center the text */
+    background-color: lightgray; /* Set background color */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 20px; /* Optional: Add padding to each div */
+    margin: 0; /* Remove default margin */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  }
+  
+
+  #details h3 {
+    margin-top: 0; /* Remove default top margin for h3 */
+  }
